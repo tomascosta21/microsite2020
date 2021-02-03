@@ -1,0 +1,86 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .two {
+    grid-column: 3;
+    grid-row: 1 / 4;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 4 / 7;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .four {
+    column-width: 350px;
+    grid-column: 4;
+    grid-row: 1 / 7;
+    background-color:hsl(0, 0%, 100%);
+    max-width: 10cm;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .five {
+    grid-column: 2 / 4;
+    grid-row: 4 / 7;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .picture{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .picture-white{
+      margin-left: 10px;
+      margin-top: 10px;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+      color: white;
+  }
+  .text{
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      opacity: 85%;
+      word-wrap: break-word;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .text-white{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    opacity: 85%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+  .text-bold-white{
+      margin-left: 10px;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: x-large;
+      color: white;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .text-bold{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+  
